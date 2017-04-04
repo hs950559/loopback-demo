@@ -1,0 +1,22 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mlabdb": {
+    "host": "ds119588.mlab.com",
+    "port": 19588,
+    "url": "mongodb://hemant:hemant@ds119588.mlab.com:19588/blog",
+    "database": "blog",
+    "password": "hemant",
+    "name": "mlabdb",
+    "user": "hemant",
+    "connector": "mongodb"
+  },
+  "container": {
+    "name": "container",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./uploads"
+  }
+}
